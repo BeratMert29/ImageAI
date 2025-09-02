@@ -35,10 +35,15 @@
 Clone the repository and install the required dependencies:
 
 ```bash
+# Clone the repository
 git clone https://github.com/BeratMert29/ImageAI.git
+
+# Change into the project directory (name may differ if you rename it)
 cd ImageAI
+
+# Install dependencies
 pip install -r requirements.txt
-```
+
 
 ## ▶️ Usage
 
