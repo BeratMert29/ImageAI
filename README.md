@@ -1,101 +1,50 @@
-# 🌌 ImageAI – Modern Streamlit App
+# ImageAI 🎨🖼️
 
-[![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-_ImageAI_ is a **modern, user-friendly Streamlit application** for working with images.  
-It features a clean UI, polished typography, and a dark theme powered by `style.css`.
-
----
+*ImageAI* is a **modern, user-friendly Streamlit application** for working with images and videos. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
 
 ## ✨ Features
-- 🎨 **Modern UI**: Custom dark theme with cards, badges, and polished inputs  
-- ⚡ **Streamlit-based**: Rapid, interactive experience in the browser  
-- ☁️ **Config-ready**: Supports `service_account.json` for Google Cloud integrations (optional)  
 
----
+* 🖌️ Generate **images** from text prompts.
+* 🎬 Create **videos** based on prompts.
+* 🎨 Choose from multiple **style options** for customization.
+* 🌓 Sleek **dark-themed UI** for better experience.
+* ⚡ Powered by **Streamlit** for fast and interactive workflows.
 
-## 📦 Prerequisites
-- Python **3.9+** (recommended 3.10 or newer)  
-- pip  
-- (Optional) Virtual environment tool: `venv` or `conda`  
+## 🚀 Installation
 
----
+Clone the repository and install the required dependencies:
 
-## 🚀 Quick Start
-
-### Windows PowerShell
-```powershell
-# 1) Clone the repository
-git clone <your-repo-url> ImageAI
+```bash
+git clone https://github.com/BeratMert29/ImageAI.git
 cd ImageAI
-
-# 2) Create and activate a virtual environment
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-# 3) Install dependencies
 pip install -r requirements.txt
+```
 
-# 4) Run the app
-streamlit run main.py
-# or
-streamlit run main_redesigned.py
+## ▶️ Usage
 
-➡️ Once running, Streamlit opens a local URL (usually http://localhost:8501).
-⚙️ Configuration (Optional: Google Service Account)
+Run the Streamlit application:
 
-If your app uses Google services:
+```bash
+streamlit run app.py
+```
 
-    Place your credentials file in the project root as service_account.json
+Then, open your browser at [http://localhost:8501](http://localhost:8501) to start using ImageAI.
 
-    Optionally set the environment variable so libraries can auto-detect credentials:
+## 📂 Project Structure
 
-$env:GOOGLE_APPLICATION_CREDENTIALS = "${PWD}\service_account.json"
-
-🎨 Styling
-
-The app uses a dedicated stylesheet:
-
-    style.css → global variables, cards, buttons, inputs, and badges
-
-You can customize colors and spacing via the CSS variables (e.g., --primary-color, --bg) at the top of style.css.
-📂 Project Structure
-
+```
 ImageAI/
-├── main.py              # Primary Streamlit app entry
-├── main_redesigned.py   # Alternate app entry
-├── style.css            # Dark theme styling
-├── requirements.txt     # Python dependencies
-├── service_account.json # (Optional) Google credentials
-└── deneme.py            # Additional scripts
+│── app.py          # Main Streamlit app
+│── style.css       # Custom styles
+│── requirements.txt # Dependencies
+│── README.md       # Project documentation
+```
 
-🛠 Troubleshooting
+## 🤝 Contributing
 
-    Port already in use
-    streamlit run main.py --server.port 8502
+Contributions are welcome! If you’d like to add new features, fix bugs, or improve documentation:
 
-    Dependency issues
-    Upgrade pip:
-
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-
-Virtual env not activating
-Run once:
-
-    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-
-🤝 Contributing
-
-    Fork the repo & create your branch:
-    git checkout -b feature/your-feature
-
-    Commit changes:
-    git commit -m "Add your feature"
-
-    Push the branch:
-    git push origin feature/your-feature
-
-    Open a Pull Request 🎉
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes
+4. Push the branch and create a Pull Request
