@@ -1,0 +1,7 @@
+streamlit>=1.32.0
+pillow>=10.2.0
+certifi>=2024.2.2
+truststore>=0.8.0
+google-auth>=2.22.0
+google-cloud-aiplatform>=1.66.0
+google-genai>=0.3.0 
