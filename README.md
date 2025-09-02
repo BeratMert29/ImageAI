@@ -1,6 +1,6 @@
 # ImageAI 🎨🖼️
 
-*ImageAI* is a **modern, user-friendly Streamlit application** for working with images and videos. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
+*ImageAI* is a **modern, user-friendly Streamlit application** for creating images and videos with multiple style options using GoogleCloud Services. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
 
 ## ✨ Features
 
@@ -9,6 +9,20 @@
 * 🎨 Choose from multiple **style options** for customization.
 * 🌓 Sleek **dark-themed UI** for better experience.
 * ⚡ Powered by **Streamlit** for fast and interactive workflows.
+
+## 🚀 Tech Stack
+
+<p align="left">
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  
+  <!-- Streamlit -->
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  
+  <!-- Google Cloud -->
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+</p>
+
 
 ## 🚀 Installation
 
