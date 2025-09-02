@@ -34,8 +34,13 @@
 Clone the repository and install the required dependencies:
 
 ```bash
+# (this will create a folder named 'ImageAI' in your current directory)
 git clone https://github.com/BeratMert29/ImageAI.git
+
+# Change into the cloned directory
 cd ImageAI
+
+# Install Python dependencies
 pip install -r requirements.txt
 ```
 
@@ -71,11 +76,3 @@ Contributions are welcome! If you’d like to add new features, fix bugs, or imp
 2. Create a new branch (`git checkout -b feature-name`)
 3. Commit your changes
 4. Push the branch and create a Pull Request
-
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-💡 *ImageAI makes working with AI-generated images and videos simple, fun, and customizable.*
