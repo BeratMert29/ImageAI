@@ -1,13 +1,21 @@
 # ImageAI 🎨🖼️
 
-*ImageAI* is a **modern, user-friendly Streamlit application** for creating images and videos with multiple style options using GoogleCloud Services. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
+*ImageAI* is a **modern, user-friendly Streamlit application** for generating, enhancing, and animating **images and videos using AI**. It supports:
+
+* 🖌️ **Text-to-Image generation**  
+* 🖼️ **Image-to-Image transformations**  
+* 🎬 **Video generation** from prompts or reference images  
+* 🎨 **Style selection** for professional, lifestyle, or creative artistic outputs  
+* 💾 **Saving favorite creations** for quick access  
+
+It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
 
 ## ✨ Features
 
-* 🖌️ Generate **images** from text prompts.
-* 🎬 Create **videos** based on prompts.
-* 🎨 Choose from multiple **style options** for customization.
-* 🌓 Sleek **dark-themed UI** for better experience.
+* Fast **image generation** from text prompts.  
+* Create **videos** based on prompts or reference images.  
+* Multiple **style options** for customization.  
+* Sleek **dark-themed UI** for better experience.  
 * ⚡ Powered by **Streamlit** for fast and interactive workflows.
 
 ## 🚀 Tech Stack
@@ -43,20 +51,31 @@ cd ImageAI
 # Install dependencies
 pip install -r requirements.txt
 
-## 📂 Project Structure
+▶️ Usage
+
+Run the Streamlit application:
+
+streamlit run app.py
+
+Then, open your browser at http://localhost:8501
+
+to start using ImageAI.
+📂 Project Structure
 
 ImageAI/
-│── app.py          # Main Streamlit app
-│── style.css       # Custom styles
+│── app.py           # Main Streamlit app
+│── style.css        # Custom styles
 │── requirements.txt # Dependencies
-│── README.md       # Project documentation
-```
+│── README.md        # Project documentation
 
-## 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! If you’d like to add new features, fix bugs, or improve documentation:
 
-1. Fork the repo
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes
-4. Push the branch and create a Pull Request
+    Fork the repo
+
+    Create a new branch (git checkout -b feature-name)
+
+    Commit your changes
+
+    Push the branch and create a Pull Request
