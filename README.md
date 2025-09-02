@@ -52,9 +52,9 @@ streamlit run app.py
 
 Then, open your browser at [http://localhost:8501](http://localhost:8501) to start using ImageAI.
 
+```
 ## 📂 Project Structure
 
-```
 ImageAI/
 │── app.py          # Main Streamlit app
 │── style.css       # Custom styles
