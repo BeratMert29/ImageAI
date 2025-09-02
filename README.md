@@ -14,13 +14,19 @@
 
 <p align="left">
   <!-- Python -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" width="48" height="48"/>
+  </a>
+
   <!-- Streamlit -->
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  
+  <a href="https://streamlit.io/" target="_blank">
+    <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
+  </a>
+
   <!-- Google Cloud -->
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+  <a href="https://cloud.google.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="Google Cloud" width="48" height="48"/>
+  </a>
 </p>
 
 
