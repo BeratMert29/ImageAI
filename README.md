@@ -29,7 +29,6 @@
   </a>
 </p>
 
-
 ## 🚀 Installation
 
 Clone the repository and install the required dependencies:
@@ -44,15 +43,6 @@ cd ImageAI
 # Install dependencies
 pip install -r requirements.txt
 
-## ▶️ Usage
-
-Run the Streamlit application:
-
-streamlit run app.py
-
-Then, open your browser at [http://localhost:8501](http://localhost:8501) to start using ImageAI.
-
-```
 ## 📂 Project Structure
 
 ImageAI/
