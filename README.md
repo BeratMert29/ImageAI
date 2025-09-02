@@ -1,21 +1,13 @@
 # ImageAI 🎨🖼️
 
-*ImageAI* is a **modern, user-friendly Streamlit application** for generating, enhancing, and animating **images and videos using AI**. It supports:
-
-* 🖌️ **Text-to-Image generation**  
-* 🖼️ **Image-to-Image transformations**  
-* 🎬 **Video generation** from prompts or reference images  
-* 🎨 **Style selection** for professional, lifestyle, or creative artistic outputs  
-* 💾 **Saving favorite creations** for quick access  
-
-It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
+*ImageAI* is a **modern, user-friendly Streamlit application** for creating images and videos with multiple style options using Google Cloud Services. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
 
 ## ✨ Features
 
-* Fast **image generation** from text prompts.  
-* Create **videos** based on prompts or reference images.  
-* Multiple **style options** for customization.  
-* Sleek **dark-themed UI** for better experience.  
+* 🖌️ Generate **images** from text prompts.
+* 🎬 Create **videos** based on prompts.
+* 🎨 Choose from multiple **style options** for customization.
+* 🌓 Sleek **dark-themed UI** for better experience.
 * ⚡ Powered by **Streamlit** for fast and interactive workflows.
 
 ## 🚀 Tech Stack
@@ -42,14 +34,11 @@ It features a clean UI, polished typography, and a custom dark theme powered by 
 Clone the repository and install the required dependencies:
 
 ```bash
-# Clone the repository
 git clone https://github.com/BeratMert29/ImageAI.git
-
-# Change into the project directory (name may differ if you rename it)
 cd ImageAI
-
-# Install dependencies
 pip install -r requirements.txt
+
+    Note: The directory name may differ depending on your system.
 
 ▶️ Usage
 
@@ -70,7 +59,7 @@ ImageAI/
 
 🤝 Contributing
 
-Contributions are welcome! If you’d like to add new features, fix bugs, or improve documentation:
+Contributions are welcome! To contribute:
 
     Fork the repo
 
