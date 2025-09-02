@@ -1,6 +1,6 @@
 # ImageAI 🎨🖼️
 
-*ImageAI* is a **modern, user-friendly Streamlit application** for creating images and videos with multiple style options using Google Cloud Services. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
+*ImageAI* is a **modern, user-friendly Streamlit application** for working with images and videos. It features a clean UI, polished typography, and a custom dark theme powered by `style.css`.
 
 ## ✨ Features
 
@@ -37,34 +37,45 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/BeratMert29/ImageAI.git
 cd ImageAI
 pip install -r requirements.txt
+```
 
-    Note: The directory name may differ depending on your system.
-
-▶️ Usage
+## ▶️ Usage
 
 Run the Streamlit application:
 
+```bash
 streamlit run app.py
+```
 
-Then, open your browser at http://localhost:8501
+Then, open your browser at [http://localhost:8501](http://localhost:8501) to start using ImageAI.
 
-to start using ImageAI.
-📂 Project Structure
+## 📂 Project Structure
 
+```
 ImageAI/
-│── app.py           # Main Streamlit app
-│── style.css        # Custom styles
+│── app.py          # Main Streamlit app
+│── style.css       # Custom styles
 │── requirements.txt # Dependencies
-│── README.md        # Project documentation
+│── README.md       # Project documentation
+```
 
-🤝 Contributing
+## 🖼️ Screenshots
 
-Contributions are welcome! To contribute:
+(Add screenshots or gifs of your application here)
 
-    Fork the repo
+## 🤝 Contributing
 
-    Create a new branch (git checkout -b feature-name)
+Contributions are welcome! If you’d like to add new features, fix bugs, or improve documentation:
 
-    Commit your changes
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes
+4. Push the branch and create a Pull Request
 
-    Push the branch and create a Pull Request
+## 📜 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+💡 *ImageAI makes working with AI-generated images and videos simple, fun, and customizable.*
