@@ -44,14 +44,11 @@ cd ImageAI
 # Install dependencies
 pip install -r requirements.txt
 
-
 ## ▶️ Usage
 
 Run the Streamlit application:
 
-```bash
 streamlit run app.py
-```
 
 Then, open your browser at [http://localhost:8501](http://localhost:8501) to start using ImageAI.
 
